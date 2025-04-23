@@ -33,7 +33,7 @@ public class prescriptionController {
     }
     
     @GetMapping("/savePrescription")
-    public String saveProduct(@ModelAttribute("prescription") prescription prescription,
+    public String saveProduct(@ModelAttribute prescription prescription,
             BindingResult result, ModelMap model,
             RedirectAttributes redirectAttributes
             ) {

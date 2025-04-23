@@ -1,18 +1,18 @@
-C:\Users\nuzhat\OneDrive - Capgemini\Project\GenAI\Migration\hospital-management-system-using-spring-boot\HospitalManagementSystem\src\main\java\com\company\varnaa\entity\appointment.java
-C:\Users\nuzhat\OneDrive - Capgemini\Project\GenAI\Migration\hospital-management-system-using-spring-boot\HospitalManagementSystem\src\main\java\com\company\varnaa\controller\prescriptionController.java
-C:\Users\nuzhat\OneDrive - Capgemini\Project\GenAI\Migration\hospital-management-system-using-spring-boot\HospitalManagementSystem\src\main\java\com\company\varnaa\entity\prescription.java
-C:\Users\nuzhat\OneDrive - Capgemini\Project\GenAI\Migration\hospital-management-system-using-spring-boot\HospitalManagementSystem\src\main\java\com\company\varnaa\service\appointmentService.java
-C:\Users\nuzhat\OneDrive - Capgemini\Project\GenAI\Migration\hospital-management-system-using-spring-boot\HospitalManagementSystem\src\main\java\com\company\varnaa\controller\receptionistController.java
-C:\Users\nuzhat\OneDrive - Capgemini\Project\GenAI\Migration\hospital-management-system-using-spring-boot\HospitalManagementSystem\src\main\java\com\company\varnaa\repository\prescriptionRepository.java
-C:\Users\nuzhat\OneDrive - Capgemini\Project\GenAI\Migration\hospital-management-system-using-spring-boot\HospitalManagementSystem\src\main\java\com\company\varnaa\entity\invoice.java
-C:\Users\nuzhat\OneDrive - Capgemini\Project\GenAI\Migration\hospital-management-system-using-spring-boot\HospitalManagementSystem\src\main\java\com\company\varnaa\repository\appointmentRepository.java
-C:\Users\nuzhat\OneDrive - Capgemini\Project\GenAI\Migration\hospital-management-system-using-spring-boot\HospitalManagementSystem\src\main\java\com\company\varnaa\repository\invoiceRepository.java
-C:\Users\nuzhat\OneDrive - Capgemini\Project\GenAI\Migration\hospital-management-system-using-spring-boot\HospitalManagementSystem\src\main\java\com\company\varnaa\CalendarApplication.java
-C:\Users\nuzhat\OneDrive - Capgemini\Project\GenAI\Migration\hospital-management-system-using-spring-boot\HospitalManagementSystem\src\main\java\com\company\varnaa\service\prescriptionService.java
-C:\Users\nuzhat\OneDrive - Capgemini\Project\GenAI\Migration\hospital-management-system-using-spring-boot\HospitalManagementSystem\src\main\java\com\company\varnaa\controller\doctorController.java
-C:\Users\nuzhat\OneDrive - Capgemini\Project\GenAI\Migration\hospital-management-system-using-spring-boot\HospitalManagementSystem\src\main\java\com\company\varnaa\controller\MainController.java
-C:\Users\nuzhat\OneDrive - Capgemini\Project\GenAI\Migration\hospital-management-system-using-spring-boot\HospitalManagementSystem\src\main\java\com\company\varnaa\HospitalManagementSystemApplication.java
-C:\Users\nuzhat\OneDrive - Capgemini\Project\GenAI\Migration\hospital-management-system-using-spring-boot\HospitalManagementSystem\src\main\java\com\company\varnaa\controller\PatientController.java
-C:\Users\nuzhat\OneDrive - Capgemini\Project\GenAI\Migration\hospital-management-system-using-spring-boot\HospitalManagementSystem\src\main\java\com\company\varnaa\ServletInitializer.java
-C:\Users\nuzhat\OneDrive - Capgemini\Project\GenAI\Migration\hospital-management-system-using-spring-boot\HospitalManagementSystem\src\main\java\com\company\varnaa\SecurityConfig.java
-C:\Users\nuzhat\OneDrive - Capgemini\Project\GenAI\Migration\hospital-management-system-using-spring-boot\HospitalManagementSystem\src\main\java\com\company\varnaa\service\invoiceservice.java
+c:\MyCodeBase\GenAI-local\Migration-APPLICATIONS\nuz-modified\hospital-management\HospitalManagementSystem\src\main\java\com\company\varnaa\repository\invoiceRepository.java
+c:\MyCodeBase\GenAI-local\Migration-APPLICATIONS\nuz-modified\hospital-management\HospitalManagementSystem\src\main\java\com\company\varnaa\service\prescriptionService.java
+c:\MyCodeBase\GenAI-local\Migration-APPLICATIONS\nuz-modified\hospital-management\HospitalManagementSystem\src\main\java\com\company\varnaa\service\invoiceservice.java
+c:\MyCodeBase\GenAI-local\Migration-APPLICATIONS\nuz-modified\hospital-management\HospitalManagementSystem\src\main\java\com\company\varnaa\entity\appointment.java
+c:\MyCodeBase\GenAI-local\Migration-APPLICATIONS\nuz-modified\hospital-management\HospitalManagementSystem\src\main\java\com\company\varnaa\entity\invoice.java
+c:\MyCodeBase\GenAI-local\Migration-APPLICATIONS\nuz-modified\hospital-management\HospitalManagementSystem\src\main\java\com\company\varnaa\repository\appointmentRepository.java
+c:\MyCodeBase\GenAI-local\Migration-APPLICATIONS\nuz-modified\hospital-management\HospitalManagementSystem\src\main\java\com\company\varnaa\controller\receptionistController.java
+c:\MyCodeBase\GenAI-local\Migration-APPLICATIONS\nuz-modified\hospital-management\HospitalManagementSystem\src\main\java\com\company\varnaa\controller\doctorController.java
+c:\MyCodeBase\GenAI-local\Migration-APPLICATIONS\nuz-modified\hospital-management\HospitalManagementSystem\src\main\java\com\company\varnaa\repository\prescriptionRepository.java
+c:\MyCodeBase\GenAI-local\Migration-APPLICATIONS\nuz-modified\hospital-management\HospitalManagementSystem\src\main\java\com\company\varnaa\controller\prescriptionController.java
+c:\MyCodeBase\GenAI-local\Migration-APPLICATIONS\nuz-modified\hospital-management\HospitalManagementSystem\src\main\java\com\company\varnaa\entity\prescription.java
+c:\MyCodeBase\GenAI-local\Migration-APPLICATIONS\nuz-modified\hospital-management\HospitalManagementSystem\src\main\java\com\company\varnaa\SecurityConfig.java
+c:\MyCodeBase\GenAI-local\Migration-APPLICATIONS\nuz-modified\hospital-management\HospitalManagementSystem\src\main\java\com\company\varnaa\HospitalManagementSystemApplication.java
+c:\MyCodeBase\GenAI-local\Migration-APPLICATIONS\nuz-modified\hospital-management\HospitalManagementSystem\src\main\java\com\company\varnaa\service\appointmentService.java
+c:\MyCodeBase\GenAI-local\Migration-APPLICATIONS\nuz-modified\hospital-management\HospitalManagementSystem\src\main\java\com\company\varnaa\controller\PatientController.java
+c:\MyCodeBase\GenAI-local\Migration-APPLICATIONS\nuz-modified\hospital-management\HospitalManagementSystem\src\main\java\com\company\varnaa\CalendarApplication.java
+c:\MyCodeBase\GenAI-local\Migration-APPLICATIONS\nuz-modified\hospital-management\HospitalManagementSystem\src\main\java\com\company\varnaa\controller\MainController.java
+c:\MyCodeBase\GenAI-local\Migration-APPLICATIONS\nuz-modified\hospital-management\HospitalManagementSystem\src\main\java\com\company\varnaa\ServletInitializer.java
