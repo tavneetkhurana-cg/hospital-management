@@ -1,7 +1,6 @@
 com\company\varnaa\controller\PatientController.class
 com\company\varnaa\repository\prescriptionRepository.class
 com\company\varnaa\entity\appointment.class
-com\company\varnaa\SecurityConfig.class
 com\company\varnaa\HospitalManagementSystemApplication.class
 com\company\varnaa\repository\appointmentRepository.class
 com\company\varnaa\controller\receptionistController.class
