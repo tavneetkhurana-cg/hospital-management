@@ -7,12 +7,12 @@ import java.time.ZoneId;
 import java.util.Date;
 import java.util.List;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
-import javax.servlet.http.HttpServletRequest;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import jakarta.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -21,9 +21,11 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.stereotype.Repository;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PatchMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
@@ -40,22 +42,22 @@ class CalendarApplication {
 //		return new ModelAndView("index");
 //	}
 	
-	@RequestMapping(value="/staticcalendar", method=RequestMethod.GET) 
+	@GetMapping("/staticcalendar") 
 	public ModelAndView staticcalendar() {
 		return new ModelAndView("staticcalendar");
 	}
 	
-	@RequestMapping(value="/calendar", method=RequestMethod.GET) 
+	@GetMapping("/calendar") 
 	public ModelAndView calendar() {
 		return new ModelAndView("calendar");
 	}
 	
-	@RequestMapping(value="/jsoncalendar", method=RequestMethod.GET) 
+	@GetMapping("/jsoncalendar") 
 	public ModelAndView jsoncalendar() {
 		return new ModelAndView("jsoncalendar");
 	}
 	
-	@RequestMapping(value="/eventlist", method=RequestMethod.GET) 
+	@GetMapping("/eventlist") 
 	public String events(HttpServletRequest request, Model model) {
 		List<Event> event = eventRepository.findAll();
 		model.addAttribute("events",event);
@@ -180,18 +182,18 @@ class EventController {
 	@Autowired
 	private EventJpaRepository eventRepository;
 	
-	@RequestMapping(value="/allevents", method=RequestMethod.GET)
+	@GetMapping("/allevents")
 	public List<Event> allEvents() {
 		return eventRepository.findAll();
 	}
 	
-	@RequestMapping(value="/findByName", method=RequestMethod.GET)
+	@GetMapping("/findByName")
 	public List<Event> findByName() {
 		return eventRepository.findByName("doctorName");
 	}
 	
 	
-	@RequestMapping(value="/event", method=RequestMethod.POST)
+	@PostMapping("/event")
 	public Event addEvent(@RequestBody Event event) {
 		Event created = new Event();
 		created.setName("username");
@@ -202,19 +204,19 @@ class EventController {
 		return eventRepository.save(created);
 	}
 
-	@RequestMapping(value="/event", method=RequestMethod.PATCH)
+	@PatchMapping("/event")
 	public Event updateEvent(@RequestBody Event event) {
 		return eventRepository.save(event);
 	}
 
-	@RequestMapping(value="/event", method=RequestMethod.DELETE)
+	@DeleteMapping("/event")
 	public void removeEvent(@RequestBody Event event) {
 		eventRepository.delete(event);
 	}
 	
-	@RequestMapping(value="/events", method=RequestMethod.GET)
-	public List<Event> getEventsInRange(@RequestParam(value = "start", required = true) String start, 
-										@RequestParam(value = "end", required = true) String end) {
+	@GetMapping("/events")
+	public List<Event> getEventsInRange(@RequestParam(required = true) String start, 
+										@RequestParam(required = true) String end) {
 		Date startDate = null;
 		Date endDate = null;
 		SimpleDateFormat inputDateFormat=new SimpleDateFormat("yyyy-MM-dd");

@@ -67,7 +67,7 @@ public class MainController {
     }
         
     @GetMapping("/save")
-    public String saveProduct(@ModelAttribute("appointment") appointment appointment,
+    public String saveProduct(@ModelAttribute appointment appointment,
             BindingResult result, ModelMap model,
             RedirectAttributes redirectAttributes
             ) {
@@ -83,7 +83,7 @@ public class MainController {
         
         
     @GetMapping("/cancel")
-    public String cancel(@ModelAttribute("appointment") appointment appointment,
+    public String cancel(@ModelAttribute appointment appointment,
             BindingResult result, ModelMap model,
             RedirectAttributes redirectAttributes
             ) {
@@ -96,7 +96,7 @@ public class MainController {
     }
         
     @RequestMapping("/confirm")
-    public String confirm(@ModelAttribute("appointment") appointment appointment, BindingResult result, ModelMap model,
+    public String confirm(@ModelAttribute appointment appointment, BindingResult result, ModelMap model,
             RedirectAttributes redirectAttributes
             ) {
         System.out.println(appointment);
@@ -151,7 +151,7 @@ public class MainController {
     public invoiceservice invoiceService;
         
     @GetMapping("/saveInvoice")
-    public String saveInvoice(@ModelAttribute("invoice") invoice invoice,
+    public String saveInvoice(@ModelAttribute invoice invoice,
             BindingResult result, ModelMap model,
             RedirectAttributes redirectAttributes
             ) {
